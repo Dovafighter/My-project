@@ -129,7 +129,6 @@ replacements = [
 ]
 
 for id in id_game_list:
-    headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
     full_url = f'https://opencritic.com/game/{id}/placeholder'
     request_opencritic = requests.get(full_url, headers=headers)
     
