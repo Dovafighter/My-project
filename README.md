@@ -8,8 +8,9 @@ That being said, I am quite happy with the result. I learned a few things, visit
 The following project was created with two goals in mind: familiarizing myself with programming in Python and solving a real problem. The former is obivious, but what was the problem?
 
 There's this service called PS Plus Extra which gives you access to selected games on PS4 and PS5. The list of games can be checked here: https://www.playstation.com/pl-pl/ps-plus/games/
-It's a really pretty site, however, it simply lists the games in A-Z order and provides hiperlinks to the PS Store - quite basic. 
-As a way to learn Python, I decided to create some kind of a tool that would combine this information and add the Opencritic score for each game and add it's game time from How Long to Beat.
+
+It's a great site, however, it simply lists the games in A-Z order and provides hiperlinks to the PS Store - quite basic when you want to check which games are worth your time and money. 
+As a way to learn Python, I decided to create some kind of a tool that would combine the list of games with Opencritic score for each game and add it's playtime from How Long to Beat.
 
 ## The method
 
