@@ -1,6 +1,7 @@
 # My first project used for learning python!
 
 First things first, I realize that the python scripts in this repository have a lot of issues and I am sure there are better ways of achieving the same result. 
+
 That being said, I am quite happy with the result. I learned a few things, visited Stackoverflow numerous times and, perhaps most importantly, achieved the main goals of this project.
 
 ## The goals
