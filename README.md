@@ -19,11 +19,11 @@ As of now, I have no idea how APIs work and I am not familiar with numerous Pyth
 
 I visited Stackoverflow quite often, read a bit about BeautifulSoup, Pandas, RegEx, HTML and wrote the following Python program:
 
-Basic_info.py - this one gathers basic info about each game in PS Extra, if possible (not every game has a score for example), from OpenCritic (https://opencritic.com/) and generates a csv file.
+Basic_info.py - gathers basic info about each game in PS Extra, if possible (not every game has a score for example), from OpenCritic (https://opencritic.com/) and generates a csv file. It also gets a game's publisher and its release date.
 
 ## The result
 
-As a final step, I decided to generate a Google Looker report with the gathered information. 
+As a final step, after checking the file manually for potential issues, I decided to generate a Google Looker report with the gathered information. 
 
 It's not perfect, as it was my first time using this service, however, you can check it here:
 https://lookerstudio.google.com/embed/reporting/351a79c8-4af9-4cf8-bece-dc0cb2ed545c/page/TwWZD
