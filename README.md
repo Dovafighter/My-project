@@ -30,3 +30,10 @@ As a final step, I decided to generate a Google Looker report with the gathered 
 It's not perfect, as it was my first time using this service, however, you can check it here:
 https://lookerstudio.google.com/embed/reporting/351a79c8-4af9-4cf8-bece-dc0cb2ed545c/page/TwWZD
 
+Using the report you can:
+- look for the game that you are interested in (case sensitive)
+- filter the games by a publisher (e.g. only display games published by Sony or Ubisoft)
+- fitler the games by the time passed since their release date using a slider (e.g. only show games that were released less than two years ago)
+- filter by score (e.g. only display games that have a score greater than 80 out of 100)
+
+
