@@ -17,7 +17,7 @@ As a way to learn Python, I decided to create some kind of a tool that would com
 
 As of now, I have no idea how APIs work and I am not familiar with numerous Python concepts/libraries, so... I went for the most accessible (I think) solution: webscraping.
 
-I visited Stackoverflow quite often, read a bit about BeautifulSoup, Pandas, RegEx, HTML and wrote two Python programs.
+I visited Stackoverflow quite often, read a bit about BeautifulSoup, Pandas, RegEx, HTML and wrote the following Python program:
 
 Basic_info.py - this one gathers basic info about each game in PS Extra, if possible (not every game has a score for example), from OpenCritic (https://opencritic.com/) and generates a csv file.
 
