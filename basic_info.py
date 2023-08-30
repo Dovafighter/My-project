@@ -11,7 +11,7 @@ page = requests.get(page_url, params= {'lang' : 'pl-PL'})
 soup = BeautifulSoup(page.content, 'html.parser')
 
 
-games_list = soup.find_all('a', attrs={'module-name' : 'psplusgameslist'})
+games_list = soup.find_all('a', attrs={'module-name' : 'PS Plus Games List'})
 final_list = [game.text.replace('PS4™ and PS5™', '')
               .replace('PS4', '')
               .replace('PS5', '')
