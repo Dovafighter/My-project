@@ -6,7 +6,7 @@ That being said, I am quite happy with the result. I learned a few things, visit
 
 ## The goals
 
-The following project was created with two goals in mind: familiarizing myself with programming in Python and solving a real problem. The former is obivious, but what was the problem?
+The following project was created with two goals in mind: familiarizing myself with programming in Python and solving a real problem. The former is obvious, but what was the problem?
 
 There's this service called PS Plus Extra which gives you access to selected games on PS4 and PS5. The list of games can be checked here: https://www.playstation.com/pl-pl/ps-plus/games/
 
