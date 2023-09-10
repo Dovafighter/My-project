@@ -46,7 +46,7 @@ def get_opencritic_id_for_game(opencritic_links):
     id_game_list = []
     for link in opencritic_links:    
             url = str(link)
-            headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
+            headers = {'User-Agent' : 'insert your user agent here'}
             request_result = requests.get(url, headers=headers, cookies= {'CONSENT': 'YES+'})
             soup = BeautifulSoup(request_result.text, 'lxml')
             find_link = soup.find('div', class_='eFM0qc BCF2pd iUh30').find('a', class_='fl iUh30')
@@ -81,7 +81,7 @@ def get_rating_publisher_and_release_date(id_game_list):
 
     for id in id_game_list:
         full_url = f'https://opencritic.com/game/{id}/placeholder'
-        headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'}
+        headers = {'User-Agent' : 'insert your user agent here'}
         request_opencritic = requests.get(full_url, headers=headers)
         second_soup = BeautifulSoup(request_opencritic.text, 'lxml')
         if id == 'none':
