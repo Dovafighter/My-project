@@ -21,6 +21,10 @@ I visited Stackoverflow quite often, read a bit about BeautifulSoup, Pandas, Reg
 
 Basic_info.py - gathers basic info about each game in PS Extra, if possible (not every game has a score for example), from OpenCritic (https://opencritic.com/) and generates a csv file. It also gets a game's publisher and its release date.
 
+For practice, I added two files:
+basic_info_functions.py - does the same thing as the aformentioned file but is written using functions. Wanted to improve readability at least a bit.
+basic_info_api.py - this one uses OpenCritic's API for accessing a game's ID used by Opencritic. It works, however, a user needs to register on RapidAPI and can only make 25 searches.
+
 ## The result
 
 As a final step, after checking the file manually for potential issues, I decided to generate a Google Looker report with the gathered information. 
