@@ -38,4 +38,4 @@ Using the report you can:
 - fitler the games by the time passed since their release date using a slider (e.g. only show games that were released less than two years ago)
 - filter by score (e.g. only display games that have a score greater than 80 out of 100)
 
-
+Unfortunately, since this is a webscraping project, the script can easily stop working.
